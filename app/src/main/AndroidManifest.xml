@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".VisionActivity"/>
+        <activity android:name=".TextRecognitionActivity"/>
+        <activity android:name=".DetectFacesActivity"/>
+        <activity android:name=".BarCodeActivity"/>
+        <activity android:name=".IdentifyLangActivity"/>
+        <activity android:name=".TranslateActivity"/>
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr,face,barcode" />
     </application>
 
 </manifest>
