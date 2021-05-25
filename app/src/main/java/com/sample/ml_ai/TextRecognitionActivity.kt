@@ -27,7 +27,6 @@ class TextRecognitionActivity : AppCompatActivity() {
 
     private var recognizer: TextRecognizer? = null
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
