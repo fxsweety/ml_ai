@@ -33,7 +33,6 @@ class TextRecognitionActivity : AppCompatActivity() {
         setContentView(R.layout.activity_vision_image)
         preview = findViewById(R.id.image_preview)
         textView = findViewById(R.id.result_text)
-
         recognizer = TextRecognition.getClient()
         takePhoto()
     }
